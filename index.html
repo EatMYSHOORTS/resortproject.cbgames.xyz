@@ -36,6 +36,50 @@
             text-decoration: none;
             font-weight: bold;
         }
+        .container {
+            padding: 50px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+        .subdomain-box {
+            background-color: #444;
+            border: 2px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            text-align: center;
+            color: white;
+            width: 90%;
+            margin: 0 auto;
+            position: relative;
+        }
+        .subdomain-box img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Force a 1:1 aspect ratio to make the image square */
+    object-fit: cover; /* This makes sure the image covers the entire box */
+    display: block;
+    background-color: #666; /* Fallback background color */
+}
+
+        .subdomain-box .content {
+            padding: 10px;
+        }
+        .subdomain-box .content h3 {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        .subdomain-box .content p {
+            font-size: 12px;
+            color: #ddd;
+        }
+        .subdomain-box a {
+            text-decoration: none;
+            color: inherit;
+        }
         .tooltip-container {
   position: fixed;
   bottom: 20px;    /* Position near the bottom */
@@ -75,6 +119,37 @@
   visibility: visible;
   opacity: 1;  /* Make the tooltip visible on hover */
 }
+.container2 {
+            padding: 70px;
+        }
+        .grid2 {
+            display: grid;
+            grid-template-columns: 1fr; /* Each box takes the full row */
+            gap: 30px;
+        }
+        .subdomain-box2 {
+            background-color: #444;
+            border: 3px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            text-align: left; /* Align text to the left */
+            color: white;
+            width: 100%; /* Full width for the row */
+            margin: 0 auto;
+            padding: 20px; /* Add padding inside the box */
+        }
+        .subdomain-box2 .content h3 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+        }
+        .subdomain-box2 .content p {
+            font-size: 14px;
+            color: #ddd;
+        }
+        .subdomain-box2 a {
+            text-decoration: none;
+            color: inherit;
+        }
 
 
          </style>
@@ -88,6 +163,49 @@
               <a href="./information/index.html">Information</a>
           </div>
           </div>
+          <div class="container">
+            <h2 style="color:white;"></h2>
+            <div class="grid">
+                <div class="subdomain-box">
+                    <a href="./404.html">
+                        <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                        <div class="content">
+                            <h3>Minecraft Mods</h3>
+                            <p>a Collection of all My Minecraft Java Mods!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="subdomain-box">
+                    <a href="./404.html">
+                        <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                        <div class="content">
+                            <h3>Minecraft Texture Packs</h3>
+                            <p>a Collection of all my Minecraft Java Texture Packs!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="subdomain-box">
+                    <a href="./404.html">
+                        <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                        <div class="content">
+                            <h3>Minecraft Datapacks</h3>
+                            <p>a Collection of all the Minecraft Datapacks I made!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="container2">
+                  <h1 style="color:white;">Extra Project Links</h1>
+                  <div class="grid2">
+                          <div class="subdomain-box2">
+                              <a href="./404.html">
+                                  <div class="content">
+                                      <h3>Extra Link 1</h3>
+                                      <p>Extra Computer and Digital Technology Projects</p>
+                                  </div>
+                              </a>
+                          </div>
+                      </div>
+                      </div>
           <div class="tooltip-container">
             <i class="info-icon">version</i>
             <span class="info-tooltip">0.004:(testing/versiontooltip)</span>
