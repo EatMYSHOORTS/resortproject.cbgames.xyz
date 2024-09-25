@@ -3,3 +3,267 @@
  Golf Course
 Parkour Course
 Jet Ski & Sofacopter rides -->
+<!DOCTYPE html>
+<html lang="en-NZ"> 
+     <head>
+        <!--below this code comment is probably the title tag-->
+         <title>Minecraft Resort Park</title>
+         <style>
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdee73;
+            background-image: url('https://t4.ftcdn.net/jpg/02/10/92/01/360_F_210920154_VDuY7QoFJLZvTYMk9lsEUGGiZUzmvOYH.jpg'); /* Add your background image URL */
+            background-size: cover; /* Ensure the background covers the entire page */
+            background-position: center;
+            background-attachment: fixed; /* Keeps the image fixed while scrolling */
+        }
+        .navbar {
+            background-color: #007bff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .title {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .navbar .nav-links {
+            margin-right: 15px;
+        }
+        .navbar .nav-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 50px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+        .subdomain-box {
+            background-color: #fdee73;
+            border: 2px solid ;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            text-align: center;
+            color:  white;
+            width: 90%;
+            margin: 0 auto;
+            position: relative;
+        }
+        .subdomain-box img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Force a 1:1 aspect ratio to make the image square */
+    object-fit: cover; /* This makes sure the image covers the entire box */
+    display: block;
+    background-color: #666; /* Fallback background color */
+}
+
+        .subdomain-box .content {
+            padding: 10px;
+        }
+        .subdomain-box .content h3 {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        .subdomain-box .content p {
+            font-size: 12px;
+            color: black;
+        }
+        .subdomain-box a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .tooltip-container {
+  position: fixed;
+  bottom: 20px;    /* Position near the bottom */
+  left: 20px;      /* Align icon to the left */
+  z-index: 9999;   /* Ensure it stays on top */
+}
+
+.info-icon {
+  font-size: 16px;
+  background-color: darkgray;  /* Light gray background */
+  border-radius: 80%;         /* Circle shape */
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.info-tooltip {
+  visibility: hidden;  /* Hidden by default */
+  position: absolute;
+  background-color: lightgray;  /* Dark gray background */
+  color: white;  /* White text */
+  padding: 8px 12px;  /* Padding for the tooltip */
+  font-size: 14px;    /* Text size */
+  border-radius: 12px; /* Rounded corners */
+  left: 100%;         /* Position the tooltip to the right of the icon */
+  margin-left: 10px;  /* Space between the icon and the tooltip */
+  white-space: nowrap; /* Prevent text wrapping */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Soft shadow for contrast */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .info-tooltip {
+  visibility: visible;
+  opacity: 1;  /* Make the tooltip visible on hover */
+}
+.container2 {
+            padding: 70px;
+        }
+        .grid2 {
+            display: grid;
+            grid-template-columns: 1fr; /* Each box takes the full row */
+            gap: 30px;
+        }
+        .subdomain-box2 {
+            background-color: #fdee73;
+            border: 3px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            text-align: left; /* Align text to the left */
+            color: white;
+            width: 100%; /* Full width for the row */
+            margin: 0 auto;
+            padding: 20px; /* Add padding inside the box */
+        }
+        .subdomain-box2 .content h3 {
+            margin: 0 0 10px 0;
+            font-size: 48px;
+        }
+        .subdomain-box2 .content p {
+            font-size: 24px;
+            color: black;
+        }
+        .subdomain-box2 a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+
+         </style>
+         </head>
+    <body>
+     <div class="navbar">
+          <div class="title">Minecraft Resort Park</div>
+          <div class="nav-links">
+              <a href="./index.html">Home</a>
+              <a href="./attractions/index.html">Attractions</a>
+              <a href="./information/index.html">Information</a>
+          </div>
+          </div>
+          
+          <div class="container2">
+            <h1 style="color:white;"></h1>
+            <div class="grid2">
+                    <div class="subdomain-box2">
+                        <a href="./404.html">
+                            <div class="content">
+                                <h3>Attractions:</h3>
+                                <p>A Modded Resort for the Summer time near the beach with a Parkour Course, Water Park & Golf Course</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="container">
+                    <div class="grid">
+                        <div class="subdomain-box">
+                            <a href="./booking/index.html">
+                                <img src="https://www.mediafire.com/view/fmjfccelja0fi0m/2024-09-25_11.50.16.png" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                                <div class="content">
+                                    <h3>Golf Course</h3>
+                                    <p>a snowball goes flying through ice as it sinks into the hole</p>
+                                </div>
+                            </a>
+                        </div>
+                <div class="subdomain-box">
+                    <a href="./404.html">
+                        <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                        <div class="content">
+                            <h3>Jumping Parkour Course</h3>
+                            <p>a Jumping Castle Parkour Course over a pool </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="subdomain-box">
+                    <a href="./404.html">
+                        <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                        <div class="content">
+                            <h3>Helicopter(sofa) Rides</h3>
+                            <p>Sofacopter Rides on top of the Main Building</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="subdomain-box">
+                    <a href="./404.html">
+                        <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                        <div class="content">
+                            <h3>Penthouse & Rooftop Bar!</h3>
+                            <p>2 Bedroom, 1 Bathroom, Full Kitchen & Firepit</p>
+                        </div>
+                    </a>
+                </div>
+                      </div>
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="subdomain-box">
+                                        <a href="./booking/index.html">
+                                            <img src="https://www.mediafire.com/view/fmjfccelja0fi0m/2024-09-25_11.50.16.png" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                                            <div class="content">
+                                                <h3>Race Track</h3>
+                                                <p>Racing through with mini bikes around the golf course through some tunnels</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                            <div class="subdomain-box">
+                                <a href="./404.html">
+                                    <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                                    <div class="content">
+                                        <h3>Hot Tub</h3>
+                                        <p>a Hot Tub big enough to fit everyone at the Resort</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="subdomain-box">
+                                <a href="./404.html">
+                                    <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                                    <div class="content">
+                                        <h3>Poolside Bar</h3>
+                                        <p>drinking fruit punch on a beachchair listening to the radio</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="subdomain-box">
+                                <a href="./404.html">
+                                    <img src="https://via.placeholder.com/300" alt="Build A Railway!" onerror="this.src='https://via.placeholder.com/300/000000/FFFFFF/?text=Image+not+available';">
+                                    <div class="content">
+                                        <h3>Jet Ski Rides</h3>
+                                        <p>Riding along the water in jet skis going faster than you can imagine!</p>
+                                    </div>
+                                </a>
+                            </div>
+                                  </div>
+
+          <div class="tooltip-container">
+            <i class="info-icon">version</i>
+            <span class="info-tooltip">0.004:(testing/versiontooltip)</span>
+          </div>  
+      </body>   
+</html>
